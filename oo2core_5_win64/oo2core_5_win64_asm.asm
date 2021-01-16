@@ -1,0 +1,195 @@
+.code
+extern mProcs:QWORD
+OodleHuffman_CountHistoArrayU8_wrapper proc
+	jmp mProcs[0*8]
+OodleHuffman_CountHistoArrayU8_wrapper endp
+OodleHuffman_DecodeArrayU8_wrapper proc
+	jmp mProcs[1*8]
+OodleHuffman_DecodeArrayU8_wrapper endp
+OodleHuffman_EncodeArrayU8_wrapper proc
+	jmp mProcs[2*8]
+OodleHuffman_EncodeArrayU8_wrapper endp
+OodleLZDecoder_Create_wrapper proc
+	jmp mProcs[3*8]
+OodleLZDecoder_Create_wrapper endp
+OodleLZDecoder_DecodeSome_wrapper proc
+	jmp mProcs[4*8]
+OodleLZDecoder_DecodeSome_wrapper endp
+OodleLZDecoder_Destroy_wrapper proc
+	jmp mProcs[5*8]
+OodleLZDecoder_Destroy_wrapper endp
+OodleLZDecoder_MakeValidCircularWindowSize_wrapper proc
+	jmp mProcs[6*8]
+OodleLZDecoder_MakeValidCircularWindowSize_wrapper endp
+OodleLZDecoder_MemorySizeNeeded_wrapper proc
+	jmp mProcs[7*8]
+OodleLZDecoder_MemorySizeNeeded_wrapper endp
+OodleLZDecoder_Reset_wrapper proc
+	jmp mProcs[8*8]
+OodleLZDecoder_Reset_wrapper endp
+OodleLZ_CheckSeekTableCRCs_wrapper proc
+	jmp mProcs[9*8]
+OodleLZ_CheckSeekTableCRCs_wrapper endp
+OodleLZ_Compress_wrapper proc
+	jmp mProcs[10*8]
+OodleLZ_Compress_wrapper endp
+OodleLZ_CompressContext_Alloc_wrapper proc
+	jmp mProcs[11*8]
+OodleLZ_CompressContext_Alloc_wrapper endp
+OodleLZ_CompressContext_Free_wrapper proc
+	jmp mProcs[12*8]
+OodleLZ_CompressContext_Free_wrapper endp
+OodleLZ_CompressContext_Reset_wrapper proc
+	jmp mProcs[13*8]
+OodleLZ_CompressContext_Reset_wrapper endp
+OodleLZ_CompressOptions_GetDefault_wrapper proc
+	jmp mProcs[14*8]
+OodleLZ_CompressOptions_GetDefault_wrapper endp
+OodleLZ_CompressOptions_Validate_wrapper proc
+	jmp mProcs[15*8]
+OodleLZ_CompressOptions_Validate_wrapper endp
+OodleLZ_CompressWithContext_wrapper proc
+	jmp mProcs[16*8]
+OodleLZ_CompressWithContext_wrapper endp
+OodleLZ_CompressionLevel_GetName_wrapper proc
+	jmp mProcs[17*8]
+OodleLZ_CompressionLevel_GetName_wrapper endp
+OodleLZ_Compressor_GetName_wrapper proc
+	jmp mProcs[18*8]
+OodleLZ_Compressor_GetName_wrapper endp
+OodleLZ_CreateSeekTable_wrapper proc
+	jmp mProcs[19*8]
+OodleLZ_CreateSeekTable_wrapper endp
+OodleLZ_Decompress_wrapper proc
+	jmp mProcs[20*8]
+OodleLZ_Decompress_wrapper endp
+OodleLZ_FillSeekTable_wrapper proc
+	jmp mProcs[21*8]
+OodleLZ_FillSeekTable_wrapper endp
+OodleLZ_FindSeekEntry_wrapper proc
+	jmp mProcs[22*8]
+OodleLZ_FindSeekEntry_wrapper endp
+OodleLZ_FreeSeekTable_wrapper proc
+	jmp mProcs[23*8]
+OodleLZ_FreeSeekTable_wrapper endp
+OodleLZ_GetChunkCompressor_wrapper proc
+	jmp mProcs[24*8]
+OodleLZ_GetChunkCompressor_wrapper endp
+OodleLZ_GetCompressedBufferSizeNeeded_wrapper proc
+	jmp mProcs[25*8]
+OodleLZ_GetCompressedBufferSizeNeeded_wrapper endp
+OodleLZ_GetCompressedStepForRawStep_wrapper proc
+	jmp mProcs[26*8]
+OodleLZ_GetCompressedStepForRawStep_wrapper endp
+OodleLZ_GetDecodeBufferSize_wrapper proc
+	jmp mProcs[27*8]
+OodleLZ_GetDecodeBufferSize_wrapper endp
+OodleLZ_GetInPlaceDecodeBufferSize_wrapper proc
+	jmp mProcs[28*8]
+OodleLZ_GetInPlaceDecodeBufferSize_wrapper endp
+OodleLZ_GetNumSeekChunks_wrapper proc
+	jmp mProcs[29*8]
+OodleLZ_GetNumSeekChunks_wrapper endp
+OodleLZ_GetSeekEntryPackedPos_wrapper proc
+	jmp mProcs[30*8]
+OodleLZ_GetSeekEntryPackedPos_wrapper endp
+OodleLZ_GetSeekTableMemorySizeNeeded_wrapper proc
+	jmp mProcs[31*8]
+OodleLZ_GetSeekTableMemorySizeNeeded_wrapper endp
+OodleLZ_GetZipLikeCompressionSettings_wrapper proc
+	jmp mProcs[32*8]
+OodleLZ_GetZipLikeCompressionSettings_wrapper endp
+OodleLZ_MakeSeekChunkLen_wrapper proc
+	jmp mProcs[33*8]
+OodleLZ_MakeSeekChunkLen_wrapper endp
+OodleLZ_ThreadPhased_BlockDecoderMemorySizeNeeded_wrapper proc
+	jmp mProcs[34*8]
+OodleLZ_ThreadPhased_BlockDecoderMemorySizeNeeded_wrapper endp
+OodleNetwork1TCP_Decode_wrapper proc
+	jmp mProcs[35*8]
+OodleNetwork1TCP_Decode_wrapper endp
+OodleNetwork1TCP_Encode_wrapper proc
+	jmp mProcs[36*8]
+OodleNetwork1TCP_Encode_wrapper endp
+OodleNetwork1TCP_State_InitAsCopy_wrapper proc
+	jmp mProcs[37*8]
+OodleNetwork1TCP_State_InitAsCopy_wrapper endp
+OodleNetwork1TCP_State_Reset_wrapper proc
+	jmp mProcs[38*8]
+OodleNetwork1TCP_State_Reset_wrapper endp
+OodleNetwork1TCP_State_Size_wrapper proc
+	jmp mProcs[39*8]
+OodleNetwork1TCP_State_Size_wrapper endp
+OodleNetwork1TCP_Train_wrapper proc
+	jmp mProcs[40*8]
+OodleNetwork1TCP_Train_wrapper endp
+OodleNetwork1UDP_Decode_wrapper proc
+	jmp mProcs[41*8]
+OodleNetwork1UDP_Decode_wrapper endp
+OodleNetwork1UDP_Encode_wrapper proc
+	jmp mProcs[42*8]
+OodleNetwork1UDP_Encode_wrapper endp
+OodleNetwork1UDP_StateCompacted_MaxSize_wrapper proc
+	jmp mProcs[43*8]
+OodleNetwork1UDP_StateCompacted_MaxSize_wrapper endp
+OodleNetwork1UDP_State_Compact_wrapper proc
+	jmp mProcs[44*8]
+OodleNetwork1UDP_State_Compact_wrapper endp
+OodleNetwork1UDP_State_Size_wrapper proc
+	jmp mProcs[45*8]
+OodleNetwork1UDP_State_Size_wrapper endp
+OodleNetwork1UDP_State_Uncompact_wrapper proc
+	jmp mProcs[46*8]
+OodleNetwork1UDP_State_Uncompact_wrapper endp
+OodleNetwork1UDP_Train_wrapper proc
+	jmp mProcs[47*8]
+OodleNetwork1UDP_Train_wrapper endp
+OodleNetwork1_CompressedBufferSizeNeeded_wrapper proc
+	jmp mProcs[48*8]
+OodleNetwork1_CompressedBufferSizeNeeded_wrapper endp
+OodleNetwork1_SelectDictionaryFromPackets_wrapper proc
+	jmp mProcs[49*8]
+OodleNetwork1_SelectDictionaryFromPackets_wrapper endp
+OodleNetwork1_SelectDictionaryFromPackets_Trials_wrapper proc
+	jmp mProcs[50*8]
+OodleNetwork1_SelectDictionaryFromPackets_Trials_wrapper endp
+OodleNetwork1_Shared_SetWindow_wrapper proc
+	jmp mProcs[51*8]
+OodleNetwork1_Shared_SetWindow_wrapper endp
+OodleNetwork1_Shared_Size_wrapper proc
+	jmp mProcs[52*8]
+OodleNetwork1_Shared_Size_wrapper endp
+OodlePlugin_DisplayAssertion_Default_wrapper proc
+	jmp mProcs[53*8]
+OodlePlugin_DisplayAssertion_Default_wrapper endp
+OodlePlugin_Free_Default_wrapper proc
+	jmp mProcs[54*8]
+OodlePlugin_Free_Default_wrapper endp
+OodlePlugin_MallocAligned_Default_wrapper proc
+	jmp mProcs[55*8]
+OodlePlugin_MallocAligned_Default_wrapper endp
+OodlePlugin_Printf_Default_wrapper proc
+	jmp mProcs[56*8]
+OodlePlugin_Printf_Default_wrapper endp
+OodlePlugins_SetAllocators_wrapper proc
+	jmp mProcs[57*8]
+OodlePlugins_SetAllocators_wrapper endp
+OodlePlugins_SetAssertion_wrapper proc
+	jmp mProcs[58*8]
+OodlePlugins_SetAssertion_wrapper endp
+OodlePlugins_SetPrintf_wrapper proc
+	jmp mProcs[59*8]
+OodlePlugins_SetPrintf_wrapper endp
+Oodle_CheckVersion_wrapper proc
+	jmp mProcs[60*8]
+Oodle_CheckVersion_wrapper endp
+Oodle_GetConfigValues_wrapper proc
+	jmp mProcs[61*8]
+Oodle_GetConfigValues_wrapper endp
+Oodle_LogHeader_wrapper proc
+	jmp mProcs[62*8]
+Oodle_LogHeader_wrapper endp
+Oodle_SetConfigValues_wrapper proc
+	jmp mProcs[63*8]
+Oodle_SetConfigValues_wrapper endp
+end
